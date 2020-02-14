@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 75%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.delete {
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+}
+input {
+  font-size: 16px;
+}
+ol {
+  padding-left: 18px;
+}
+.task-container {
+  display: flex;
+  align-items: center;
+}
+.task {
+  flex: 1;
+}
+.complete-btn {
+  background-color: white;
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
+  color: #ff69b4;
+  margin: 0px 5px;
+}
+.add {
+  background-color: #ff1493;
+  border-radius: 5px;
+  padding: 5px 0px;
+  margin: 10px 0px;
+  width: 100%;
+}
